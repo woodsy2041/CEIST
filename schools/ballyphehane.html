@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>School</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.js"></script>
+</head> 
+<style>
+ #map-canvas { height: 500px }
+ </style>
+<body> 
+<script>
+$(document).ready(function() {
+	$('li.fax').removeClass("ui-btn-icon-right");
+});
+</script>
+<div data-role="page">
+
+	<div data-role="header"	data-theme="b">
+	<a href="http://m.ceist.ie/ceistschools.html" data-icon="back">Back</a>
+		<h1>Schools</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+	<ul data-role="listview" data-theme="e" data-inset="true">
+		<li>Name of School: Presentation Secondary School, Ballyphehane</li>
+	</ul>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li>Principal: Mr. Vincent O'Grady</font></li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li>Deputy Principal: Ms. Helen Kelly</li>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li>Address: Joe Murphy Rd, Ballyphehane</li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li class="fax">Fax: 021-4961767</li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li><a href="tel:021-4961765">Call: 021-4961765</a></li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+	<li><a href="mailto:pssgrlck@iol.ie">Email: pssgrlck@iol.ie</a></li> 
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li><a href="http://www.presballyphehane.com/">Website: www.presballyphehane.com</a></li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li><a href="\schoollocations\ballyphehaneloc.html" rel="external">Location: 51.884319,-8.47842</a></li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="c" data-inset="true">
+		<li><a href="http://m.ceist.ie/schooldirections/ballyphehanedir.html" rel="external">Directions</a></li>
+	</ul></p>
+		
+	</div><!-- /content -->
+</div><!-- /page -->
+
+</body>
+</html>

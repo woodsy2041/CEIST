@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>School</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.js"></script>
+</head> 
+<style>
+ #map-canvas { height: 500px }
+ </style>
+<body> 
+<script>
+$(document).ready(function() {
+	$('li.fax').removeClass("ui-btn-icon-right");
+});
+</script>
+<div data-role="page">
+
+	<div data-role="header"	data-theme="b">
+	<a href="http://m.ceist.ie/ceistschools.html" data-icon="back">Back</a>
+		<h1>Schools</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+	<ul data-role="listview" data-theme="e" data-inset="true">
+		<li>Name of School: St. Brigid's Secondary School, Killarney</li>
+	</ul>
+	<p>			
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li>Principal: Ms. Margaret McCormack</font></li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li>Deputy Principal: Ms. Mary O'Rourke</li>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li>Address: New Street, Killarney</li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li class="fax">Fax: 064- 6636379</li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li><a href="tel:064-6632209">Call: 064-6632209</a></li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+	<li><a href="mailto:brigidsc@eircom.net">Email: brigidsc@eircom.net</a></li> 
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li><a href="http://www.stbrigidskillarney.ie/">Website: www.stbrigidskillarney.ie</a></li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li><a href="\schoollocations\killarneyloc.html" rel="external">Location: 52.05858,-9.515973</a></li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="c" data-inset="true">
+		<li><a href="http://m.ceist.ie/schooldirections/killarneydir.html" rel="external">Directions</a></li>
+	</ul></p>
+		
+	</div><!-- /content -->
+</div><!-- /page -->
+
+</body>
+</html>

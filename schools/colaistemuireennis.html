@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>School</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.js"></script>
+	
+</head> 
+<style>
+ #map-canvas { height: 500px }
+ </style>
+<body> 
+<script>
+$(document).ready(function() {
+	$('li.fax').removeClass("ui-btn-icon-right");
+});
+</script>
+<div data-role="page">
+
+	<div data-role="header"	data-theme="b">
+	<a href="http://m.ceist.ie/ceistschools.html" data-icon="back">Back</a>
+		<h1>Schools</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+	<ul data-role="listview" data-theme="e" data-inset="true">
+		<li>Name of School: Col&aacute;iste Muire, Ennis</li>
+	<p>		
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li>Principal: Ms. Jean Pound</li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li>Deputy Principal: Ms. Geraldine Lydon</li>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li>Address: College Road, Ennis</li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li class="fax">Fax: 065-6828605</li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li><a href="tel:065-6829497">Call: 065-6829497</a></li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+	<li><a href="mailto:cmennis@eircom.net">Email: cmennis@eircom.net</a></li> 
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li><a href="http://www.colaistemuire.ie">Website: www.colaistemuire.ie</a></li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li><a href="\schoollocations\colaistemuireennisloc.html" rel="external">Location: 52.848763,-8.985271</a></li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="c" data-inset="true">
+		<li><a href="http://m.ceist.ie/schooldirections/colaistemuireennisdir.html" rel="external">Directions</a></li>
+	</ul></p>
+		
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>

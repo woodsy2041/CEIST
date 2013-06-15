@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>School</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.js"></script>
+</head> 
+<style>
+ #map-canvas { height: 500px }
+ </style>
+<body> 
+<script>
+$(document).ready(function() {
+	$('li.fax').removeClass("ui-btn-icon-right");
+});
+</script>
+<div data-role="page">
+
+	<div data-role="header"	data-theme="b">
+	<a href="http://m.ceist.ie/ceistschools.html" data-icon="back">Back</a>
+		<h1>Schools</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+	<ul data-role="listview" data-theme="e" data-inset="true">
+		<li>Name of School: St Joseph's Secondary School, Rochfortbridge</li>
+	<p>		
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li>Principal: Ms. Eileen Alford</font></li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li>Deputy Principal: Ms. Margaret Cole</li>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li>Address: Rochfortbridge</li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li class="fax">Fax: 044-9222656</li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li><a href="tel:044-9222176">Call: 044-9222176</a></li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+	<li><a href="mailto:mercy.rochfortbridge@gmail.com">Email: mercy.rochfortbridge@gmail.com</a></li> 
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li><a href="http://www.mercyrochfortbridge.ie/">Website: www.mercyrochfortbridge.ie</a></li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="d" data-inset="true">
+		<li><a href="\schoollocations\rochfortbridgeloc.html" rel="external">Location: 53.414258,-7.301928</a></li>
+	</ul>
+	<p>
+	<ul data-role="listview" data-theme="c" data-inset="true">
+		<li><a href="http://m.ceist.ie/schooldirections/rochfortbridgedir.html" rel="external">Directions</a></li>
+	</ul></p>
+		
+	</div><!-- /content -->
+</div><!-- /page -->
+
+</body>
+</html>
